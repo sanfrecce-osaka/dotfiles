@@ -121,6 +121,10 @@ RPROMPT="[%*]"
 # -n 行数表示, -I バイナリファイル無視, svn関係のファイルを無視
 alias grep="grep --color -n -I --exclude='*.svn-*' --exclude='entries' --exclude='*/cache/*'"
 
+# cd
+alias c="cd"
+alias cpro="cd ~/projects"
+
 # ls
 alias ls="ls -G" # color for darwin
 alias l="ls -la"
@@ -140,10 +144,17 @@ alias bu="bundle update"
 alias dbcr="rake db:create"
 alias dbrb="rake db:rollback"
 alias dbmi="rake db:migrate"
+alias dbsu="rake db:setup"
+alias dbre="rake db:reset"
+alias dbse="rake db:seed"
 
 # docker
 alias d="docker"
+alias dp="docker ps"
 alias dc="docker-compose"
+alias dcu="docker-compose up"
+alias dcd="docker-compose down"
+alias dcp="docker-compose ps"
 
 # -------------------------------------
 # キーバインド
