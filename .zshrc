@@ -140,6 +140,11 @@ alias bi="bundle install"
 alias biv="bundle install --path vendor/bundle"
 alias bu="bundle update"
 
+# rails g
+alias rgmo="rails g model"
+alias rgc="rails g controller"
+alias rgmi="rails g migration"
+
 # rails db
 alias dbcr="rake db:create"
 alias dbrb="rake db:rollback"
@@ -148,6 +153,10 @@ alias dbsu="rake db:setup"
 alias dbre="rake db:reset"
 alias dbse="rake db:seed"
 
+# rubocop
+alias cop="rubocop"
+alias copa="rubocop -a"
+
 # docker
 alias d="docker"
 alias dp="docker ps"
@@ -155,6 +164,17 @@ alias dc="docker-compose"
 alias dcu="docker-compose up"
 alias dcd="docker-compose down"
 alias dcp="docker-compose ps"
+
+# git
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gce="git commit --allow-empty"
+alias gri="git rebase -i"
+alias grc="git rebase --continue"
+alias gra="git rebase --abort"
+alias grs="git reset --soft"
+alias grm="git reset --mixed"
+alias grh="git reset --hard"
 
 # -------------------------------------
 # キーバインド
