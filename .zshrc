@@ -177,6 +177,9 @@ alias grs="git reset --soft"
 alias grm="git reset --mixed"
 alias grh="git reset --hard"
 
+# reload
+alias r="source ~/.zshrc"
+
 # -------------------------------------
 # キーバインド
 # -------------------------------------
