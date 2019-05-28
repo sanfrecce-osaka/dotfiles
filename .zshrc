@@ -144,6 +144,7 @@ alias bu="bundle update"
 alias rgmo="rails g model"
 alias rgc="rails g controller"
 alias rgmi="rails g migration"
+alias rgma="rails g mailer"
 
 # rails db
 alias dbcr="rake db:create"
