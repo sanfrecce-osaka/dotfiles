@@ -147,6 +147,13 @@ alias rgc="rails g controller"
 alias rgmi="rails g migration"
 alias rgma="rails g mailer"
 
+# rails d
+alias rd="rails d"
+alias rdmo="rails d model"
+alias rdc="rails d controller"
+alias rdmi="rails d migration"
+alias rdma="rails d mailer"
+
 # rails db
 alias dbcr="rake db:create"
 alias dbrb="rake db:rollback"
