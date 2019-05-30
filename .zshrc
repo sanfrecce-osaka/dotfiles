@@ -141,6 +141,7 @@ alias biv="bundle install --path vendor/bundle"
 alias bu="bundle update"
 
 # rails g
+alias rg="rails g"
 alias rgmo="rails g model"
 alias rgc="rails g controller"
 alias rgmi="rails g migration"
