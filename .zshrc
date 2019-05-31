@@ -165,7 +165,7 @@ alias dbse="rails db:seed"
 # rubocop
 alias cop="rubocop"
 alias copa="rubocop -a"
-alias becop="budle exec rubocop"
+alias becop="bundle exec rubocop"
 alias becopa="bundle exec rubocop -a"
 
 # docker
