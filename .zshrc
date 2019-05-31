@@ -155,12 +155,12 @@ alias rdmi="rails d migration"
 alias rdma="rails d mailer"
 
 # rails db
-alias dbcr="rake db:create"
-alias dbrb="rake db:rollback"
-alias dbmi="rake db:migrate"
-alias dbsu="rake db:setup"
-alias dbre="rake db:reset"
-alias dbse="rake db:seed"
+alias dbcr="rails db:create"
+alias dbrb="rails db:rollback"
+alias dbmi="rails db:migrate"
+alias dbsu="rails db:setup"
+alias dbre="rails db:reset"
+alias dbse="rails db:seed"
 
 # rubocop
 alias cop="rubocop"
