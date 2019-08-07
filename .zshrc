@@ -177,6 +177,7 @@ alias dcd="docker-compose down"
 alias dcp="docker-compose ps"
 
 # git
+alias gi="git init"
 alias gc="git commit"
 alias gca="git commit --amend"
 alias gce="git commit --allow-empty"
