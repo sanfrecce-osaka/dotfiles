@@ -178,6 +178,7 @@ alias dcp="docker-compose ps"
 
 # git
 alias gi="git init"
+alias ga="git add"
 alias gc="git commit"
 alias gca="git commit --amend"
 alias gce="git commit --allow-empty"
