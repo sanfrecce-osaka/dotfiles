@@ -19,6 +19,9 @@ export PATH=$PATH:/usr/local/mysql/bin
 # Node.js
 export PATH=$PATH:/Users/moritsukamasatoshi/.nodebrew/current/bin
 
+# 自作シェル
+PATH=$PATH:/Users/moritsukamasatoshi/bin
+
 # -------------------------------------
 # zshのオプション
 # -------------------------------------
