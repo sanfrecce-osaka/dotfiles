@@ -180,6 +180,12 @@ alias dcu="docker-compose up"
 alias dcd="docker-compose down"
 alias dcp="docker-compose ps"
 
+# vagrant
+alias vu="vagrant up"
+alias vh="vagrant halt"
+alias vd="vagrant destroy"
+alias vs="vagrant status"
+
 # git
 alias gi="git init"
 alias ga="git add"
