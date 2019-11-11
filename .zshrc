@@ -183,6 +183,7 @@ alias dcp="docker-compose ps"
 # vagrant
 alias vu="vagrant up"
 alias vh="vagrant halt"
+alias vr="vagrant reload"
 alias vd="vagrant destroy"
 alias vs="vagrant status"
 
